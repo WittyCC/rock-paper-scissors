@@ -4,9 +4,9 @@ import static org.junit.Assert.*;
 public class RockPaperScissorsTest {
 
   @Test
-  public void computerChooses_shouldBeAString_true() {
+  public void pcPlay_pcPlaysRock_win() {
   RockPaperScissors testGame = new RockPaperScissors();
-  String computerChoice =  testGame.computerChooses();
-  assertEquals(true, computerChoice instanceof String);
+  String pcPlay =  "Rock";
+  //assertEquals("Rock", testGame.pcPlay("You WIN!"));
   }
 }
